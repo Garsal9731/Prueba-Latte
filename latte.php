@@ -2,10 +2,10 @@
 
     // activa Tracy
     Tracy\Debugger::enable();
-
+ 
     $latte = new Latte\Engine;
     // activa la extensión de Tracy
-    $latte->addExtension(new Latte\Bridges\Tracy\TracyExtension);
+    $latte->addExtension(new Bridges\Tracy\TracyExtension);
 
 
     // directorio caché
